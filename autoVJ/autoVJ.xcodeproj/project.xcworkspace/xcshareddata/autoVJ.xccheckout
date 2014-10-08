@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>548DA50E-EB34-4A67-A386-60D632A00ABF</string>
+	<string>286D5D0D-1313-4612-B55A-BAF61016E968</string>
 	<key>IDESourceControlProjectName</key>
 	<string>autoVJ</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -14,6 +14,8 @@
 		<string>https://github.com/kylemcdonald/ofxFft.git</string>
 		<key>13331D77-DBB6-4591-8BD7-2E6DADF792DC</key>
 		<string>https://github.com/Akira-Hayasaka/ofxPSBlend.git</string>
+		<key>2C1AEC20-F449-4168-BC4F-224FECF16DB0</key>
+		<string>https://github.com/danthemellowman/autoVJ.git</string>
 		<key>3B402FC2-504D-4E29-A36C-B8C3DBE8CD39</key>
 		<string>https://github.com/maxillacult/ofxPostGlitch.git</string>
 		<key>8A5CFC61-1533-45F1-9FF5-37B4068FBE8C</key>
@@ -28,13 +30,15 @@
 		<string>https://github.com/openframeworks/openFrameworks.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>apps/LiarsRepo/autoVJ/autoVJ.xcodeproj/project.xcworkspace</string>
+	<string>apps/autoVJ/autoVJ/autoVJ.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>0FF07669-A1EC-4DB8-A675-9BA346743F41</key>
 		<string>../../../../../addons/ofxFft</string>
 		<key>13331D77-DBB6-4591-8BD7-2E6DADF792DC</key>
 		<string>../../../../../addons/ofxPSBlend</string>
+		<key>2C1AEC20-F449-4168-BC4F-224FECF16DB0</key>
+		<string>../../..</string>
 		<key>3B402FC2-504D-4E29-A36C-B8C3DBE8CD39</key>
 		<string>../../../../../addons/ofxPostGlitch</string>
 		<key>8A5CFC61-1533-45F1-9FF5-37B4068FBE8C</key>
@@ -49,13 +53,21 @@
 		<string>../../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/openframeworks/openFrameworks.git</string>
+	<string>https://github.com/danthemellowman/autoVJ.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
 	<string>FA3B9EB2-67A9-4C40-A10C-F30A210C3938</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2C1AEC20-F449-4168-BC4F-224FECF16DB0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>autoVJ</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
