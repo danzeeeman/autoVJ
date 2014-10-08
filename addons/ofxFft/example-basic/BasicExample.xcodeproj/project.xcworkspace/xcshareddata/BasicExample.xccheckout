@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CC433391-5C2B-403D-B6D7-6C8AAFBE269A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BasicExample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4814AB3A-FBF6-495C-BFEC-3F9B38C82EC5</key>
+		<string>https://github.com/kylemcdonald/ofxFft.git</string>
+		<key>88FAB2DC-F82E-4761-B069-BDCEB29AF571</key>
+		<string>https://github.com/openframeworks/openFrameworks.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>addons/ofxFft/example-basic/BasicExample.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4814AB3A-FBF6-495C-BFEC-3F9B38C82EC5</key>
+		<string>../../..</string>
+		<key>88FAB2DC-F82E-4761-B069-BDCEB29AF571</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/openframeworks/openFrameworks.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>88FAB2DC-F82E-4761-B069-BDCEB29AF571</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4814AB3A-FBF6-495C-BFEC-3F9B38C82EC5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ofxFft</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>88FAB2DC-F82E-4761-B069-BDCEB29AF571</string>
+			<key>IDESourceControlWCCName</key>
+			<string>openFrameworks</string>
+		</dict>
+	</array>
+</dict>
+</plist>
