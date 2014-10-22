@@ -10,6 +10,10 @@
 */
 
 
+
+precision mediump float;
+
+
 void main(void) {
 	float intensity = 10.0; // Lower number = more 'glow'
 	vec2 offset = vec2(-0.5 , 0); // x / y offset

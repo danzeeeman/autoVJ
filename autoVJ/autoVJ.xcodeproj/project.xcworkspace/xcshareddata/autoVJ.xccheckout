@@ -16,12 +16,26 @@
 		<string>https://github.com/Akira-Hayasaka/ofxPSBlend.git</string>
 		<key>2C1AEC20-F449-4168-BC4F-224FECF16DB0</key>
 		<string>https://github.com/danthemellowman/autoVJ.git</string>
+		<key>2DE9C8846D9375EAACFABA8963120E8E7719BAF5</key>
+		<string>https://github.com/openframeworks/openFrameworks.git</string>
 		<key>3B402FC2-504D-4E29-A36C-B8C3DBE8CD39</key>
 		<string>https://github.com/maxillacult/ofxPostGlitch.git</string>
+		<key>5EA337860EDF9EDE1ED391597512CC8689AE0D46</key>
+		<string>https://github.com/rezaali/ofxBeatDetector.git</string>
+		<key>84CE04532A76281E9D0C7B3A7EFCDC0E12CAC6FA</key>
+		<string>https://github.com/fakelove/ofxFft.git</string>
 		<key>8A5CFC61-1533-45F1-9FF5-37B4068FBE8C</key>
 		<string>https://github.com/danomatika/ofxMidi.git</string>
+		<key>8AC082CB50BC8E5500927B444F6DC1953854AEE8</key>
+		<string>https://github.com/danthemellowman/autoVJ.git</string>
+		<key>95F70890EFD46183734FEDFE52CF53391DE6937E</key>
+		<string>https://github.com/neilmendoza/ofxPostProcessing.git</string>
+		<key>97FDCF03A971289FFED99A88138A5909EA5F5D0C</key>
+		<string>https://github.com/satoruhiga/ofxISF.git</string>
 		<key>A7C57E2E-10F8-4A53-8D70-8DC8019DD2E0</key>
 		<string>https://github.com/satoruhiga/ofxISF.git</string>
+		<key>DF8CF2077679A8E9DC1BA352D6E976FCED7DE749</key>
+		<string>https://github.com/Akira-Hayasaka/ofxPSBlend.git</string>
 		<key>E32F184F-6CF2-403E-B2D8-B363B385640E</key>
 		<string>https://github.com/neilmendoza/ofxPostProcessing.git</string>
 		<key>F1029B72-2283-40B4-8E35-70066A3F90DA</key>
@@ -30,41 +44,71 @@
 		<string>https://github.com/openframeworks/openFrameworks.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>apps/autoVJ/autoVJ/autoVJ.xcodeproj/project.xcworkspace</string>
+	<string>autoVJ/autoVJ.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>0FF07669-A1EC-4DB8-A675-9BA346743F41</key>
-		<string>../../../../../addons/ofxFft</string>
+		<string>../../../../openFrameworks/addons/ofxFft</string>
 		<key>13331D77-DBB6-4591-8BD7-2E6DADF792DC</key>
-		<string>../../../../../addons/ofxPSBlend</string>
+		<string>../../../../openFrameworks/addons/ofxPSBlend</string>
 		<key>2C1AEC20-F449-4168-BC4F-224FECF16DB0</key>
-		<string>../../..</string>
-		<key>3B402FC2-504D-4E29-A36C-B8C3DBE8CD39</key>
-		<string>../../../../../addons/ofxPostGlitch</string>
-		<key>8A5CFC61-1533-45F1-9FF5-37B4068FBE8C</key>
-		<string>../../../../../addons/ofxMidi</string>
-		<key>A7C57E2E-10F8-4A53-8D70-8DC8019DD2E0</key>
-		<string>../../../../../addons/ofxISF</string>
-		<key>E32F184F-6CF2-403E-B2D8-B363B385640E</key>
-		<string>../../../../../addons/ofxPostProcessing</string>
-		<key>F1029B72-2283-40B4-8E35-70066A3F90DA</key>
-		<string>../../../../../addons/ofxBeatDetector</string>
-		<key>FA3B9EB2-67A9-4C40-A10C-F30A210C3938</key>
+		<string>../../../../../../..</string>
+		<key>2DE9C8846D9375EAACFABA8963120E8E7719BAF5</key>
 		<string>../../../../..</string>
+		<key>3B402FC2-504D-4E29-A36C-B8C3DBE8CD39</key>
+		<string>../../../../openFrameworks/addons/ofxPostGlitch</string>
+		<key>5EA337860EDF9EDE1ED391597512CC8689AE0D46</key>
+		<string>../../../../../addons/ofxBeatDetector</string>
+		<key>84CE04532A76281E9D0C7B3A7EFCDC0E12CAC6FA</key>
+		<string>../../../../../addons/ofxFft</string>
+		<key>8A5CFC61-1533-45F1-9FF5-37B4068FBE8C</key>
+		<string>../../../../openFrameworks/addons/ofxMidi</string>
+		<key>8AC082CB50BC8E5500927B444F6DC1953854AEE8</key>
+		<string>../../..</string>
+		<key>95F70890EFD46183734FEDFE52CF53391DE6937E</key>
+		<string>../../../../../addons/ofxPostProcessing</string>
+		<key>97FDCF03A971289FFED99A88138A5909EA5F5D0C</key>
+		<string>../../../../../addons/ofxISF</string>
+		<key>A7C57E2E-10F8-4A53-8D70-8DC8019DD2E0</key>
+		<string>../../../../openFrameworks/addons/ofxISF</string>
+		<key>DF8CF2077679A8E9DC1BA352D6E976FCED7DE749</key>
+		<string>../../../../../addons/ofxPSBlend</string>
+		<key>E32F184F-6CF2-403E-B2D8-B363B385640E</key>
+		<string>../../../../openFrameworks/addons/ofxPostProcessing</string>
+		<key>F1029B72-2283-40B4-8E35-70066A3F90DA</key>
+		<string>../../../../openFrameworks/addons/ofxBeatDetector</string>
+		<key>FA3B9EB2-67A9-4C40-A10C-F30A210C3938</key>
+		<string>../../../../openFrameworks</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/danthemellowman/autoVJ.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>FA3B9EB2-67A9-4C40-A10C-F30A210C3938</string>
+	<string>8AC082CB50BC8E5500927B444F6DC1953854AEE8</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2DE9C8846D9375EAACFABA8963120E8E7719BAF5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>..</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>2C1AEC20-F449-4168-BC4F-224FECF16DB0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>..</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8AC082CB50BC8E5500927B444F6DC1953854AEE8</string>
 			<key>IDESourceControlWCCName</key>
 			<string>autoVJ</string>
 		</dict>
@@ -80,6 +124,14 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5EA337860EDF9EDE1ED391597512CC8689AE0D46</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ofxBeatDetector</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>0FF07669-A1EC-4DB8-A675-9BA346743F41</string>
 			<key>IDESourceControlWCCName</key>
 			<string>ofxFft</string>
@@ -88,7 +140,23 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>84CE04532A76281E9D0C7B3A7EFCDC0E12CAC6FA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ofxFft</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>A7C57E2E-10F8-4A53-8D70-8DC8019DD2E0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ofxISF</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>97FDCF03A971289FFED99A88138A5909EA5F5D0C</string>
 			<key>IDESourceControlWCCName</key>
 			<string>ofxISF</string>
 		</dict>
@@ -112,9 +180,25 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>95F70890EFD46183734FEDFE52CF53391DE6937E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ofxPostProcessing</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>E32F184F-6CF2-403E-B2D8-B363B385640E</string>
 			<key>IDESourceControlWCCName</key>
 			<string>ofxPostProcessing</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DF8CF2077679A8E9DC1BA352D6E976FCED7DE749</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ofxPSBlend</string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>

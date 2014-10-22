@@ -7,6 +7,7 @@
 #include "ofxProcessFft.h"
 #include "ofxBeatDetector.h"
 #include "ofxPSBlend.h"
+#include "ofxAlembic.h"
 class ofApp : public ofBaseApp{
     
 public:
@@ -31,6 +32,9 @@ public:
     ofFbo mPing;
     ofFbo mPong;
     
+    ofFbo abcPing;
+    ofFbo abcFbo;
+    
     ofxPSBlend blendOne;
     ofxPSBlend blendTwo;
     
@@ -44,8 +48,9 @@ public:
     ofxISF::Chain mISFPong;
     ofxISF::Chain mChainPing;
     ofxISF::Chain mChainPong;
+    ofxISF::Chain mAbc;
 
-    ofxPostGlitch mGlitch;
+
     ofxPostGlitch mDebugGlitch;
     ofxPostGlitch mGlitchPing;
     ofxPostGlitch mGlitchPong;
@@ -62,6 +67,9 @@ public:
     ofColor mDebug;
     bool debug;
     
+    bool triggered;
+    int tcount;
+    
     float deltaShiftPong;
     float deltaShiftPing;
     ofShader mShader;
@@ -73,4 +81,13 @@ public:
     
     ofDirectory dir;
     vector<string> files;
+    
+    ofShader shader;
+    ofxAlembic::Reader reader;
+    
+    ofEasyCam cam;
+    float stage;
+    float abcAlpha;
+    
+    bool fade;
 };
