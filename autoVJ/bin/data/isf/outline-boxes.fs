@@ -25,7 +25,7 @@
  "TYPE": "float",
  "MIN": 0.1,
  "MAX": 1000.0,
- "DEFAULT": 10.5
+ "DEFAULT": 2.5
  },
  {
  "NAME": "size",
@@ -39,7 +39,7 @@
  "TYPE": "float",
  "MIN": 0.0,
  "MAX": 1.0,
- "DEFAULT": 0.5
+ "DEFAULT": 0.12
  },
  {
  "NAME": "colorB",
@@ -91,7 +91,7 @@
  "TYPE": "float",
  "MIN": 0.1,
  "MAX": 1.0,
- "DEFAULT": 0.2
+ "DEFAULT": 0.12
  }
  ]
  }

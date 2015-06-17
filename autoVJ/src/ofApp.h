@@ -1,13 +1,10 @@
 #pragma once
 
 #include "ofMain.h"
-#include "ofxPostGlitch.h"
-#include "ofxPostProcessing.h"
 #include "ofxISF.h"
 #include "ofxProcessFft.h"
 #include "ofxBeatDetector.h"
-#include "ofxPSBlend.h"
-#include "ofxAlembic.h"
+#include "ofxSyphon.h"
 class ofApp : public ofBaseApp{
     
 public:
@@ -23,26 +20,13 @@ public:
     void allocateFbos();
     void initShaderChains();
     
-    void drawDebug();
     ofFbo mFrame;
-    ofFbo mDebugFrame;
     ofImage mMask;
-    ofFbo mMasker;
-    ofFbo mBackColor;
     ofFbo mPing;
     ofFbo mPong;
-    
-    ofFbo abcPing;
-    ofFbo abcFbo;
-    
-    ofxPSBlend blendOne;
-    ofxPSBlend blendTwo;
-    
+
     int blendModeOne;
     int blendModeTwo;
-    
-    ofVideoPlayer mVideoPing;
-    ofVideoPlayer mVideoPong;
     
     ofxISF::Chain mISFPing;
     ofxISF::Chain mISFPong;
@@ -50,11 +34,6 @@ public:
     ofxISF::Chain mChainPong;
     ofxISF::Chain mAbc;
 
-
-    ofxPostGlitch mDebugGlitch;
-    ofxPostGlitch mGlitchPing;
-    ofxPostGlitch mGlitchPong;
-    itg::PostProcessing mPost;
     
     ofxBeatDetector* mBeat;
     
@@ -78,16 +57,36 @@ public:
     float mixPing;
     float mixPong;
     float vals[4];
+    bool bFullscreen;
+    float previousBlend1;
+    float previousBlend2;
     
     ofDirectory dir;
     vector<string> files;
     
     ofShader shader;
-    ofxAlembic::Reader reader;
     
-    ofEasyCam cam;
+    ofCamera cam;
     float stage;
     float abcAlpha;
     
     bool fade;
+    ofVboMesh mesh;
+    
+    ofBoxPrimitive plane;
+    
+    
+    ofQuaternion left;
+    ofQuaternion right;
+    ofQuaternion up;
+    ofQuaternion down;
+    bool drawFPS;
+    
+    bool kick, hat, snare, low, mid, high, midhigh;
+    float lastKick, lastHat, lastSnare, lastLow, lastMid, lastHigh, lastMidhigh;
+    float kickDiff, hatDiff, snareDiff, lowDiff, midDiff, highDiff, midhighDiff;
+    
+    ofxSyphonServer server;
+    
+    bool fooScreenCap;
 };

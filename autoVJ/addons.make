@@ -1,0 +1,6 @@
+ofxPostGlitch
+ofxFft
+ofxBeatDetector
+ofxPSBlend
+ofxISF
+ofxPostProcessing

@@ -28,7 +28,7 @@
 // This shader uses a Simplex Noise implementation by and I McEwan, A Arts (more info below)
 // If you modify this code please update this header
 
-precision highp float;
+//precision highp float;
 
 const bool USE_MOUSE = true; // Set this to true for God Mode :)
 

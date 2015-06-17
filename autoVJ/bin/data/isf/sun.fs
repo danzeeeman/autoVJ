@@ -11,7 +11,7 @@
 
 
 
-precision mediump float;
+//precision mediump float;
 
 
 void main(void) {
